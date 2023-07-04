@@ -1,0 +1,24 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1024px;height:750px;z-index:1;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:734px;top:10px;width:240px;height:61px;z-index:2;}
+#Img1Inner {position:absolute;width:240px;height:61px;border:0px;}
+#TabCtl1 {display:block;overflow:hidden;position:absolute;left:50px;top:80px;width:924px;height:650px;z-index:3;background:url('./images/def_tabctl1.png');background-repeat:no-repeat;}
+#TabCtl1_tab1 {overflow:hidden;position:absolute;left:1px;top:0px;width:230px;height:47px;}
+.TabCtl1_tab1_active {background:url('./images/def_tabctl1_hover.png');background-repeat:no-repeat;background-position:-1px 0px;cursor:pointer;}
+#TabCtl1_txt1 {position:absolute;left:84px;top:9px;font-weight:bold;font-family:B;font-size:24px;color:#FFFFFF;}
+#TabCtl1_tab2 {overflow:hidden;position:absolute;left:232px;top:0px;width:231px;height:47px;}
+.TabCtl1_tab2_active {background:url('./images/def_tabctl1_hover.png');background-repeat:no-repeat;background-position:-232px 0px;cursor:pointer;}
+#TabCtl1_txt2 {position:absolute;left:43px;top:9px;font-weight:bold;font-family:B;font-size:24px;color:#FFFFFF;}
+#TabCtl1_tab3 {overflow:hidden;position:absolute;left:463px;top:0px;width:232px;height:47px;}
+.TabCtl1_tab3_active {background:url('./images/def_tabctl1_hover.png');background-repeat:no-repeat;background-position:-463px 0px;cursor:pointer;}
+#TabCtl1_txt3 {position:absolute;left:17px;top:9px;font-weight:bold;font-family:B;font-size:24px;color:#FFFFFF;}
+#TabCtl1_tab4 {overflow:hidden;position:absolute;left:694px;top:0px;width:233px;height:47px;}
+.TabCtl1_tab4_active {background:url('./images/def_tabctl1_hover.png');background-repeat:no-repeat;background-position:-694px 0px;cursor:pointer;}
+#TabCtl1_txt4 {position:absolute;left:64px;top:9px;font-weight:bold;font-family:B;font-size:24px;color:#FFFFFF;}
+#TabCtl1_iframe {overflow:auto;position:absolute;left:2px;top:47px;width:918px;height:599px;border-radius:0px 0px 30px 30px;}
+#TabCtl1 A:link {text-decoration: none}
+#TabCtl1 A:visited {text-decoration: none}
+#TabCtl1 A:active {text-decoration: none}
+#TabCtl1 A:hover {text-decoration: none}
+#Label1 {display:block;overflow:hidden;position:absolute;left:74px;top:729px;width:376px;height:25px;z-index:4;white-space:normal;}

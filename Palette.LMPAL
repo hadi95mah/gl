@@ -1,0 +1,12 @@
+MASKCOLOR {
+GlobalColor1 100 255 140 0
+GlobalColor2 100 128 128 128
+GlobalRollover 100 255 140 0
+GlobalSelect 40 255 140 0
+Color5 100 255 255 255
+Color6 100 0 0 0
+Color7 100 255 13 13
+Color8 100 81 255 6
+Color9 100 191 177 0
+Color10 0 0 0 0
+}

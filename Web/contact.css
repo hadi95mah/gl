@@ -1,0 +1,31 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:850px;height:550px;z-index:1;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:10px;top:10px;width:410px;height:150px;z-index:2;background:url('./images/contact_Box1.png');background-repeat:no-repeat;}
+#Text1 {display:block;position:absolute;left:185px;top:7px;width:217px;height:48px;z-index:3;}
+#But1 {display:block;overflow:hidden;position:absolute;left:222px;top:67px;width:121px;height:55px;z-index:4;background:url('./buttons/contact_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -121px 0;}
+#But1.Over {background-position: -242px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:17px;color:#FFFFFF;}
+#But1.Up p {top:20px;left:19px;}
+#But1.Down p {top:21px;left:20px;}
+#But1.Over p {top:20px;left:19px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:58px;top:67px;width:119px;height:55px;z-index:5;background:url('./buttons/contact_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -119px 0;}
+#But2.Over {background-position: -238px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:17px;color:#FFFFFF;}
+#But2.Up p {top:19px;left:38px;}
+#But2.Down p {top:20px;left:39px;}
+#But2.Over p {top:19px;left:38px;}
+#But2 div {display:none;}
+#Box3 {display:block;overflow:hidden;position:absolute;left:10px;top:170px;width:830px;height:370px;z-index:6;background:url('./images/contact_Box3.png');background-repeat:no-repeat;}
+#Text3 {display:block;position:absolute;left:561px;top:7px;width:262px;height:48px;z-index:7;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:20px;top:60px;width:420px;height:289px;z-index:8;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img1Inner {position:absolute;width:416px;height:285px;border: 2px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Text5 {display:block;position:absolute;left:452px;top:111px;width:349px;height:236px;z-index:9;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:430px;top:10px;width:410px;height:150px;z-index:10;background:url('./images/contact_Box1.png');background-repeat:no-repeat;}
+#Text2 {display:block;position:absolute;left:185px;top:7px;width:217px;height:48px;z-index:11;}
+#Text4 {display:block;position:absolute;left:8px;top:66px;width:395px;height:69px;z-index:12;}

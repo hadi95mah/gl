@@ -1,0 +1,143 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:850px;height:800px;z-index:1;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:48px;top:28px;width:150px;height:150px;z-index:2;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img1Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img1PopUp {display:none;overflow:hidden;z-index:999}
+#Img1PopUpInner {position:absolute;width:368px;height:368px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:248px;top:28px;width:150px;height:150px;z-index:3;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img2Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img2PopUp {display:none;overflow:hidden;z-index:999}
+#Img2PopUpInner {position:absolute;width:800px;height:800px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:448px;top:28px;width:150px;height:150px;z-index:4;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img3Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img3PopUp {display:none;overflow:hidden;z-index:999}
+#Img3PopUpInner {position:absolute;width:600px;height:600px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:648px;top:28px;width:150px;height:150px;z-index:5;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img4Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img4PopUp {display:none;overflow:hidden;z-index:999}
+#Img4PopUpInner {position:absolute;width:600px;height:600px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Text1 {display:block;position:absolute;left:48px;top:187px;width:150px;height:25px;z-index:6;}
+#Text2 {display:block;position:absolute;left:248px;top:187px;width:150px;height:25px;z-index:7;}
+#Text3 {display:block;position:absolute;left:448px;top:187px;width:150px;height:25px;z-index:8;}
+#Text4 {display:block;position:absolute;left:648px;top:187px;width:150px;height:25px;z-index:9;}
+#But55at {display:block;overflow:hidden;position:absolute;left:48px;top:212px;width:159px;height:43px;z-index:10;background:url('./buttons/buy_But1.png');background-repeat:no-repeat;}
+#But55at.Up {background-position: 0 0;}
+#But55at.Down {background-position: -159px 0;}
+#But55at.Over {background-position: -318px 0;}
+#But55at p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But55at.Up p {top:9px;left:48px;}
+#But55at.Down p {top:10px;left:49px;}
+#But55at.Over p {top:9px;left:48px;}
+#But55at div {display:none;}
+#But66at {display:block;overflow:hidden;position:absolute;left:248px;top:212px;width:159px;height:43px;z-index:11;background:url('./buttons/buy_But1.png');background-repeat:no-repeat;}
+#But66at.Up {background-position: 0 0;}
+#But66at.Down {background-position: -159px 0;}
+#But66at.Over {background-position: -318px 0;}
+#But66at p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But66at.Up p {top:9px;left:48px;}
+#But66at.Down p {top:10px;left:49px;}
+#But66at.Over p {top:9px;left:48px;}
+#But66at div {display:none;}
+#But70at {display:block;overflow:hidden;position:absolute;left:448px;top:212px;width:159px;height:43px;z-index:12;background:url('./buttons/buy_But1.png');background-repeat:no-repeat;}
+#But70at.Up {background-position: 0 0;}
+#But70at.Down {background-position: -159px 0;}
+#But70at.Over {background-position: -318px 0;}
+#But70at p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But70at.Up p {top:9px;left:48px;}
+#But70at.Down p {top:10px;left:49px;}
+#But70at.Over p {top:9px;left:48px;}
+#But70at div {display:none;}
+#But74at {display:block;overflow:hidden;position:absolute;left:648px;top:212px;width:159px;height:43px;z-index:13;background:url('./buttons/buy_But1.png');background-repeat:no-repeat;}
+#But74at.Up {background-position: 0 0;}
+#But74at.Down {background-position: -159px 0;}
+#But74at.Over {background-position: -318px 0;}
+#But74at p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But74at.Up p {top:9px;left:48px;}
+#But74at.Down p {top:10px;left:49px;}
+#But74at.Over p {top:9px;left:48px;}
+#But74at div {display:none;}
+#Img5 {display:block;overflow:hidden;position:absolute;left:48px;top:287px;width:150px;height:150px;z-index:14;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img5Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img5PopUp {display:none;overflow:hidden;z-index:999}
+#Img5PopUpInner {position:absolute;width:600px;height:600px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Text5 {display:block;position:absolute;left:48px;top:446px;width:150px;height:52px;z-index:15;}
+#But60kat {display:block;overflow:hidden;position:absolute;left:48px;top:493px;width:159px;height:43px;z-index:16;background:url('./buttons/buy_But1.png');background-repeat:no-repeat;}
+#But60kat.Up {background-position: 0 0;}
+#But60kat.Down {background-position: -159px 0;}
+#But60kat.Over {background-position: -318px 0;}
+#But60kat p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But60kat.Up p {top:9px;left:48px;}
+#But60kat.Down p {top:10px;left:49px;}
+#But60kat.Over p {top:9px;left:48px;}
+#But60kat div {display:none;}
+#Img6 {display:block;overflow:hidden;position:absolute;left:257px;top:287px;width:150px;height:150px;z-index:17;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img6Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img6PopUp {display:none;overflow:hidden;z-index:999}
+#Img6PopUpInner {position:absolute;width:300px;height:300px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Text6 {display:block;position:absolute;left:257px;top:446px;width:150px;height:51px;z-index:18;}
+#But60bat {display:block;overflow:hidden;position:absolute;left:257px;top:493px;width:159px;height:43px;z-index:19;background:url('./buttons/buy_But1.png');background-repeat:no-repeat;}
+#But60bat.Up {background-position: 0 0;}
+#But60bat.Down {background-position: -159px 0;}
+#But60bat.Over {background-position: -318px 0;}
+#But60bat p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But60bat.Up p {top:9px;left:48px;}
+#But60bat.Down p {top:10px;left:49px;}
+#But60bat.Over p {top:9px;left:48px;}
+#But60bat div {display:none;}
+#Img7 {display:block;overflow:hidden;position:absolute;left:448px;top:287px;width:150px;height:150px;z-index:20;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img7Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img7PopUp {display:none;overflow:hidden;z-index:999}
+#Img7PopUpInner {position:absolute;width:300px;height:300px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Text7 {display:block;position:absolute;left:448px;top:446px;width:150px;height:52px;z-index:21;}
+#Img8 {display:block;overflow:hidden;position:absolute;left:648px;top:287px;width:150px;height:150px;z-index:22;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img8Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img8PopUp {display:none;overflow:hidden;z-index:999}
+#Img8PopUpInner {position:absolute;width:443px;height:443px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Text8 {display:block;position:absolute;left:648px;top:446px;width:150px;height:51px;z-index:23;}
+#But1 {display:block;overflow:hidden;position:absolute;left:448px;top:493px;width:159px;height:43px;z-index:24;background:url('./buttons/buy_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -159px 0;}
+#But1.Over {background-position: -318px 0;}
+#But1 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But1.Up p {top:9px;left:48px;}
+#But1.Down p {top:10px;left:49px;}
+#But1.Over p {top:9px;left:48px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:643px;top:493px;width:159px;height:43px;z-index:25;background:url('./buttons/buy_But1.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -159px 0;}
+#But2.Over {background-position: -318px 0;}
+#But2 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But2.Up p {top:9px;left:48px;}
+#But2.Down p {top:10px;left:49px;}
+#But2.Over p {top:9px;left:48px;}
+#But2 div {display:none;}
+#Img9 {display:block;overflow:hidden;position:absolute;left:57px;top:561px;width:150px;height:150px;z-index:26;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img9Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img9PopUp {display:none;overflow:hidden;z-index:999}
+#Img9PopUpInner {position:absolute;width:600px;height:600px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Img10 {display:block;overflow:hidden;position:absolute;left:257px;top:561px;width:150px;height:150px;z-index:27;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img10Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img10PopUp {display:none;overflow:hidden;z-index:999}
+#Img10PopUpInner {position:absolute;width:1000px;height:1000px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Text9 {display:block;position:absolute;left:57px;top:720px;width:150px;height:25px;z-index:28;}
+#Text10 {display:block;position:absolute;left:257px;top:720px;width:150px;height:25px;z-index:29;}
+#But3 {display:block;overflow:hidden;position:absolute;left:57px;top:745px;width:159px;height:43px;z-index:30;background:url('./buttons/buy_But1.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -159px 0;}
+#But3.Over {background-position: -318px 0;}
+#But3 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But3.Up p {top:9px;left:48px;}
+#But3.Down p {top:10px;left:49px;}
+#But3.Over p {top:9px;left:48px;}
+#But3 div {display:none;}
+#But4 {display:block;overflow:hidden;position:absolute;left:257px;top:745px;width:159px;height:43px;z-index:31;background:url('./buttons/buy_But1.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -159px 0;}
+#But4.Over {background-position: -318px 0;}
+#But4 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But4.Up p {top:9px;left:48px;}
+#But4.Down p {top:10px;left:49px;}
+#But4.Over p {top:9px;left:48px;}
+#But4 div {display:none;}

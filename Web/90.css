@@ -1,0 +1,25 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:850px;height:550px;z-index:1;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:285px;top:139px;width:277px;height:386px;z-index:2;background:url('./images/90_Box1.png');background-repeat:no-repeat;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:64px;top:137px;width:150px;height:150px;z-index:3;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img1Inner {position:absolute;width:150px;height:150px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img1PopUp {display:none;overflow:hidden;z-index:999}
+#Img1PopUpInner {position:absolute;width:443px;height:443px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Text2 {display:block;position:absolute;left:64px;top:296px;width:150px;height:25px;z-index:4;}
+#But55at {display:block;overflow:hidden;position:absolute;left:64px;top:327px;width:159px;height:43px;z-index:5;background:url('./buttons/90_But55at.png');background-repeat:no-repeat;}
+#But55at.Up {background-position: 0 0;}
+#But55at.Down {background-position: -159px 0;}
+#But55at.Over {background-position: -318px 0;}
+#But55at p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:B Lotus;font-size:16px;color:#000000;}
+#But55at.Up p {top:9px;left:48px;}
+#But55at.Down p {top:10px;left:49px;}
+#But55at.Over p {top:9px;left:48px;}
+#But55at div {display:none;}
+#Text4 {display:block;position:absolute;left:22px;top:43px;width:234px;height:83px;z-index:6;}
+#Text3 {display:block;position:absolute;left:10px;top:44px;width:833px;height:52px;z-index:7;}
+#But1 {display:block;overflow:hidden;position:absolute;left:742px;top:139px;width:67px;height:62px;z-index:8;background:url('./buttons/90_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -67px 0;}
+#But1.Over {background-position: -134px 0;}
+#But1 p {visibility:hidden;}

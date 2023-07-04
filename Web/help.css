@@ -1,0 +1,6 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:850px;height:1000px;z-index:1;}
+#Menu2 {display:block;z-index:2077;clear:both;position:absolute;left:448px;top:123px;width:200px;height:450px;}
+#Menu1 {display:block;z-index:2078;position:absolute;left:20px;top:123px;width:200px;height:510px;}
+#Text1 {display:block;position:absolute;left:20px;top:24px;width:810px;height:129px;z-index:4;}
